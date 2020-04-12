@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Ejercicio03 {
 
     /**
-     03) Aplicando el teorema de Pitágoras determinar el valor de la hipotenusa
-     de un triangulo rectángulo, el perímetro y el área de dicho triangulo
-     conociendo solamente el valor de los catetos.
+     * 03) Aplicando el teorema de Pitágoras determinar el valor de la hipotenusa
+     * de un triangulo rectángulo, el perímetro y el área de dicho triangulo
+     * conociendo solamente el valor de los catetos.
      */
     public static void main(String[] args) {
         // Declaracion de variables
@@ -22,7 +22,7 @@ public class Ejercicio03 {
         c2 = Double.parseDouble(sc.nextLine());
 
         // Calculo
-        h= Math.sqrt( Math.pow(c1, 2) + Math.pow(c2, 2)) ;
+        h = Math.sqrt(Math.pow(c1, 2) + Math.pow(c2, 2));
 
         // Salida de Resultados
         System.out.println("Resultado de la Hipotenusa: " + h);
