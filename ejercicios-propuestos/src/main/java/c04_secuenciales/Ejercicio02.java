@@ -4,22 +4,22 @@ import java.util.Scanner;
 
 public class Ejercicio02 {
     /**
-     La nota final de un curso de programación se obtiene de acuerdo a las
-     siguientes formulas:
-
-     PPA = 0.20*PA1 + 0.20*PA2 + 0.25*PA3 + 0.35*PA4
-     PPB = 0.20*PB1 + 0.20*PB2 + 0.25*PB3 + 0.35*PB4
-     PF  = 0.30*PPA + 0.35*PB + 0.35*PY
-
-     Donde PA1 es la practica de aula nro. 1, PB1 es la practica de
-     laboratorio nro. 1, PY es la nota del proyecto final, PF es el promedio
-     final.
-     Sabiendo todas las notas PA y todas las notas PB, se desea saber cuánto
-     debe sacar en el PY un alumno par que tenga un PF aprobatorio. Se sabe
-     que un PF aprobatorio mínimo es 10.5
-
-
-     PY = [10.5 - (0.30*PPA + 0.35*PB )]/0.35
+     * La nota final de un curso de programación se obtiene de acuerdo a las
+     * siguientes formulas:
+     * <p>
+     * PPA = 0.20*PA1 + 0.20*PA2 + 0.25*PA3 + 0.35*PA4
+     * PPB = 0.20*PB1 + 0.20*PB2 + 0.25*PB3 + 0.35*PB4
+     * PF  = 0.30*PPA + 0.35*PB + 0.35*PY
+     * <p>
+     * Donde PA1 es la practica de aula nro. 1, PB1 es la practica de
+     * laboratorio nro. 1, PY es la nota del proyecto final, PF es el promedio
+     * final.
+     * Sabiendo todas las notas PA y todas las notas PB, se desea saber cuánto
+     * debe sacar en el PY un alumno par que tenga un PF aprobatorio. Se sabe
+     * que un PF aprobatorio mínimo es 10.5
+     * <p>
+     * <p>
+     * PY = [10.5 - (0.30*PPA + 0.35*PB )]/0.35
      */
     public static void main(String[] args) {
         System.out.println("###############Bienvenido###############");
